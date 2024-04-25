@@ -8,7 +8,7 @@ from pathlib import Path
 import hashlib
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyC-6CFCa1-O6xfskb_Xs2rirUJ7YIdd6Ws")
+genai.configure(api_key="GOOGLE_API_KEY")
 
 # Set up the model
 generation_config = {
